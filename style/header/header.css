@@ -4,6 +4,7 @@
   align-items: center;
   padding: 30px;
   background: #111;
+  gap: 100px;
 }
 
 .header__nav-a {
@@ -14,4 +15,17 @@
 .header__nav {
   display: flex;
   gap: 30px;
+}
+
+.header__nav-mobile {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .header__nav {
+    display: none;
+  }
+  .header__nav-mobile {
+    display: block;
+  }
 }
