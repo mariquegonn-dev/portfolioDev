@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background: #111;
+}
+
+.header__nav-a {
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+}
+
+.header__nav {
+  display: flex;
+  gap: 30px;
+}
