@@ -83,4 +83,8 @@ img {
   .detail__blur-right {
     display: none;
   }
+
+  .detail__blur-top {
+    display: none;
+  }
 }
