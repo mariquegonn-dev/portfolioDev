@@ -2,3 +2,17 @@
   font: 600 1.25rem/1.5rem "Outfit", sans-serif;
   letter-spacing: 0.08rem;
 }
+
+.font__h1 {
+  font: 700 4.375rem/5.5rem "Outfit", sans-serif;
+}
+
+.font__p {
+  font: 400 1.125rem/1.42rem "Outfit", sans-serif;
+}
+
+.font__button {
+  font: 400 1.125rem/1.31rem "Roboto", sans-serif;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+}

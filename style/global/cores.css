@@ -1,8 +1,14 @@
 :root {
   --cor-bg: #1d1235;
   --cor-0: #fff;
+  --cor-1: #6a8cf9;
+  --cor-2: #2f5df3;
 }
 
 .cor-0 {
   color: var(--cor-0);
+}
+
+.cor-1 {
+  color: var(--cor-1);
 }

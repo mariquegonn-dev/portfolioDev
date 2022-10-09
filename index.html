@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@600;700&family=Roboto&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./style/style.css">
   <title>Riquegonn</title>
 </head>
@@ -29,20 +29,21 @@
     </nav>
   </header>
 
-  <section>
-    <div>
-      <h1>Why do we use it?</h1>
-      <p>At is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
-      <ul>
-        <li><a href="/">Github</a></li>
-        <li><a href="/">Download CV</a></li>
+  <section class="hero container">
+    <div class="hero__main">
+      <h1 class="font__h1  hero__main-h1 cor-0">Why do we<br>use it<span class="cor-1">?</span></h1>
+      <p class="hero__main-p font__p cor-0">At is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+      <ul class="font__button hero__main-button">
+        <li><a class="cor-0 button__bold" href="/">Github</a></li>
+        <li><a class="cor-0 button__border" href="/">Download CV</a></li>
       </ul>
     </div>
 
-    <div>
-      <img src="./img/perfil.png" alt="personagem 3d perfil">
+    <div class="hero__perfil">
+      <img class="hero__perfil-img" src="./img/perfil.png" alt="personagem 3d perfil">
     </div>
   </section>
+
   <script src="./script.js"></script>
 </body>
 

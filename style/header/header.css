@@ -9,6 +9,11 @@
 .header__nav-a {
   padding: 0.5rem 0;
   text-transform: uppercase;
+  transition: 0.3s;
+}
+
+.header__nav-a:hover {
+  color: var(--cor-1);
 }
 
 .header__nav {

@@ -1,0 +1,31 @@
+.hero__main-h1 {
+  text-transform: uppercase;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 30px;
+}
+
+.hero__main {
+  display: grid;
+  align-content: center;
+  align-self: center;
+  gap: 30px;
+}
+
+.hero__main-p {
+  max-width: 38ch;
+}
+
+.hero__main-button {
+  display: flex;
+  gap: 20px;
+  margin: -2px;
+}
+
+.hero__perfil {
+  display: flex;
+  justify-content: center;
+}
