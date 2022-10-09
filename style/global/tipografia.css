@@ -16,3 +16,14 @@
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
+
+@media (max-width: 550px) {
+  .font__h1 {
+    font-size: 2rem;
+    line-height: 2.75rem;
+  }
+
+  .font__p {
+    font-weight: 400;
+  }
+}

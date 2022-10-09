@@ -1,5 +1,6 @@
 .hero__main-h1 {
   text-transform: uppercase;
+  max-width: 10ch;
 }
 
 .hero {
@@ -28,4 +29,33 @@
 .hero__perfil {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 950px) {
+  .hero {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__main {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero__main-h1 {
+    max-width: max-content;
+  }
+
+  .hero {
+    padding: 80px 30px;
+    gap: 100px;
+  }
+
+  .hero__main {
+    gap: 20px;
+  }
+
+  .btn__remove {
+    display: none;
+  }
 }
