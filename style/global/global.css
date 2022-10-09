@@ -54,3 +54,33 @@ img {
 .button__border:hover {
   border-color: var(--cor-2);
 }
+
+.detail__blur-right {
+  width: 550px;
+  height: 550px;
+  background: rgba(106, 140, 249, 0.2);
+  border-radius: 50%;
+  filter: blur(136px);
+  position: absolute;
+  z-index: -1;
+  right: 0px;
+  top: 250px;
+}
+
+.detail__blur-top {
+  width: 550px;
+  height: 550px;
+  background: rgba(106, 140, 249, 0.2);
+  border-radius: 50%;
+  filter: blur(136px);
+  position: absolute;
+  z-index: -1;
+  left: 350px;
+  top: -550px;
+}
+
+@media (max-width: 950px) {
+  .detail__blur-right {
+    display: none;
+  }
+}
