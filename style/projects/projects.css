@@ -1,6 +1,6 @@
 .projects {
   display: grid;
-  padding: 120px 30px;
+  padding: 0px 30px 120px 30px;
   justify-content: center;
   gap: 60px;
   justify-items: center;
@@ -46,4 +46,41 @@
 
 .projects__button-border:hover {
   border-color: var(--cor-2);
+}
+
+.projects__list-teste {
+  display: none;
+}
+
+@media (max-width: 950px) {
+  .projects {
+    justify-items: center;
+  }
+
+  .projects__list {
+    display: none;
+  }
+
+  .projects__list-teste {
+    display: block;
+  }
+
+  .projects__main-h1 {
+    max-width: 10ch;
+  }
+}
+
+@media (max-width: 550px) {
+  .projects {
+    gap: 30px;
+    padding: 0px 30px 80px 30px;
+  }
+
+  .projects__main-h1 {
+    max-width: max-content;
+  }
+
+  .btn__remove2 {
+    display: none;
+  }
 }
