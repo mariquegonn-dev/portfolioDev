@@ -38,6 +38,10 @@
   display: none;
 }
 
+.glider li img {
+  border-radius: 20px;
+}
+
 @media (max-width: 400px) {
   .glider-track {
     gap: 10px;
