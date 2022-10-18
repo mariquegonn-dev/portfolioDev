@@ -1,0 +1,45 @@
+.callFinal__sec {
+  padding: 30px 30px 130px 30px;
+}
+
+.callFinal {
+  display: grid;
+  gap: 60px;
+  justify-items: center;
+  background: linear-gradient(
+    180deg,
+    #54329f 0%,
+    rgba(84, 50, 159, 0.6875) 15.51%,
+    rgba(84, 50, 159, 0) 93.06%
+  );
+  border-radius: 20px;
+  padding: 60px 30px;
+}
+
+.callFinal__h1 {
+  text-transform: uppercase;
+}
+
+.callFinal__button-border {
+  border: 1px solid var(--cor-1);
+  padding: 0.562rem 1.09rem;
+  display: inline-block;
+  border-radius: 40px;
+  transition: 0.3s;
+}
+
+.callFinal__button-border:hover {
+  border-color: var(--cor-2);
+}
+
+@media (max-width: 550px) {
+  .callFinal {
+    gap: 20px;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .callFinal__sec {
+    padding: 0px 30px 40px 30px;
+  }
+}
