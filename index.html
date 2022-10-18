@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./glider.min.css">
   <link rel="stylesheet" href="./style/style.css">
   <title>Riquegonn</title>
 </head>
@@ -48,26 +49,38 @@
   </section>
 
 
-  <section class="projects container">
+  <section class="container">
+
     <h1 class="font__h1  projects__main-h1 cor-0">Latest Projects<span class="cor-1">.</span></h1>
 
-    <ul class="projects__list">
-      <li>
-        <a href="/"><img class="projects__list-img" src="./img/projects__1.png" alt="projeto link 1"></a>
-      </li>
-      <li>
-        <a href="/"><img class="projects__list-img" src="./img/projects__2.png" alt="projeto link 2"></a>
-      </li>
-      <li>
-        <a href="/"><img class="projects__list-img" src="./img/projects__3.png" alt="projeto link 3"></a>
-      </li>
-    </ul>
+    <div class="container__project">
+      <ul class="glider">
+        <li>
+          <img src="./img/projects__1.png" alt="projeto 1">
+        </li>
+        <li>
+          <img src="./img/projects__2.png" alt="projeto 2">
+        </li>
+        <li>
+          <img src="./img/projects__3.png" alt="projeto 3">
+        </li>
+        <li>
+          <img src="./img/projects__1.png" alt="projeto 1">
+        </li>
+        <li>
+          <img src="./img/projects__2.png" alt="projeto 2">
+        </li>
+        <li>
+          <img src="./img/projects__3.png" alt="projeto 3">
+        </li>
+      </ul>
 
-    <ul class="projects__list-teste">
-      <li>
-        <a href="/"><img class="projects__list-img" src="./img/projects__1.png" alt="projeto link 1"></a>
-      </li>
-    </ul>
+      <div>
+        <button aria-label="Previous" class="glider-prev"></button>
+        <button aria-label="Next" class="glider-next"></button>
+        <div class="dots"></div>
+      </div>
+    </div>
 
     <ul class="font__button projects__list-button">
       <li><a class="cor-0 projects__button-bold" href="/">See More</a></li>
@@ -75,6 +88,10 @@
     </ul>
   </section>
 
+
+
+
+  <script src="./glider.min.js"></script>
   <script src="./script.js"></script>
 </body>
 

@@ -63,17 +63,19 @@
 
   .hero__main {
     justify-content: center;
+    justify-items: center;
+  }
+
+  .hero__main-h1,
+  .hero__main-p {
+    text-align: center;
   }
 }
 
 @media (max-width: 550px) {
-  .hero__main-h1 {
-    max-width: max-content;
-  }
-
   .hero {
-    padding: 80px 30px;
-    gap: 100px;
+    padding: 80px 30px 40px 30px;
+    gap: 50px;
   }
 
   .hero__main {

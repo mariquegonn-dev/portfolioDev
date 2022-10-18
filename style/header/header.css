@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 30px;
-  gap: 100px;
+  gap: 50px;
 }
 
 .header__nav-a {
@@ -31,5 +31,11 @@
   }
   .header__nav-mobile {
     display: block;
+  }
+}
+
+@media (max-width: 550px) {
+  .header {
+    padding: 15px;
   }
 }

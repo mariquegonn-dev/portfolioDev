@@ -1,0 +1,52 @@
+.container__project {
+  max-width: 400px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 30px;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+}
+
+@keyframes up {
+  0% {
+    transform: translate3d(10px, 0, 0);
+  }
+  50% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.glider.grab .arraste {
+  display: none;
+}
+.glider-dots {
+  pointer-events: none;
+}
+
+.glider-dot.active {
+  background: #6a8cf9;
+}
+
+.glider-next.disabled,
+.glider-prev.disabled {
+  display: none;
+}
+
+@media (max-width: 400px) {
+  .glider-track {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 550px) {
+  .glider-next,
+  .glider-prev {
+    display: none;
+  }
+} ;
