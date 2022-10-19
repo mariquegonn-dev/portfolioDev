@@ -9,18 +9,18 @@
   }
 
   25% {
-    transform: translate3d(0px, -7%, 0px);
+    transform: translate3d(0px, -3.5%, 0px);
   }
 
   50% {
-    transform: translate3d(-4%, 0px, 0px);
+    transform: translate3d(-2%, 0px, 0px);
   }
 
   75% {
-    transform: translate3d(0px, -7%, 0px);
+    transform: translate3d(0px, -3.5%, 0px);
   }
 
   100% {
-    transform: translate3d(4%, 0px, 0px);
+    transform: translate3d(2%, 0px, 0px);
   }
 }
