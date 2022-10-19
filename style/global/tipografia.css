@@ -1,26 +1,26 @@
 .font__header-a {
-  font: 600 1.25rem/1.5rem "Outfit", sans-serif;
+  font: 600 1.25rem/1.5 "Outfit", sans-serif;
   letter-spacing: 0.08rem;
 }
 
 .font__h1 {
-  font: 700 4.375rem/5.5rem "Outfit", sans-serif;
+  font: 700 4.375rem/1.4 "Outfit", sans-serif;
 }
 
 .font__p {
-  font: 400 1.125rem/1.42rem "Outfit", sans-serif;
+  font: 400 1.125rem/1.4 "Outfit", sans-serif;
 }
 
 .font__h1-sub {
-  font: 600 2rem/2.5rem "Outfit", sans-serif;
+  font: 600 2rem/1.4 "Outfit", sans-serif;
 }
 
 .font__p-sub {
-  font: 400 1.5rem/1.875rem "Outfit", sans-serif;
+  font: 400 1.5rem/1.4 "Outfit", sans-serif;
 }
 
 .font__button {
-  font: 400 1.125rem/1.31rem "Roboto", sans-serif;
+  font: 400 1.125rem/1.4 "Roboto", sans-serif;
   letter-spacing: 0.1rem;
   text-transform: uppercase;
 }
@@ -28,7 +28,7 @@
 @media (max-width: 550px) {
   .font__h1 {
     font-size: 2rem;
-    line-height: 2.75rem;
+    line-height: 1.4;
   }
 
   .font__p {
@@ -37,11 +37,11 @@
 
   .font__h1-sub {
     font-size: 1.5rem;
-    line-height: 1.875rem;
+    line-height: 1.4;
   }
 
   .font__p-sub {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.4;
   }
 }
