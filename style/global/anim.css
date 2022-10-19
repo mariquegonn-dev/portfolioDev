@@ -1,0 +1,26 @@
+.anim__cubic-1 {
+  animation: 12.4s cubic-bezier(0.445, 0.05, 0.55, 0.95) 1.2s infinite alternate
+    none running cubic-1;
+}
+
+@keyframes cubic-1 {
+  0% {
+    transform: none;
+  }
+
+  25% {
+    transform: translate3d(0px, -7%, 0px);
+  }
+
+  50% {
+    transform: translate3d(-4%, 0px, 0px);
+  }
+
+  75% {
+    transform: translate3d(0px, -7%, 0px);
+  }
+
+  100% {
+    transform: translate3d(4%, 0px, 0px);
+  }
+}
