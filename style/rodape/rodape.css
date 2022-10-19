@@ -1,6 +1,7 @@
 .rodape {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
 }
 
 .rodape__bg {
@@ -28,4 +29,40 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
+}
+
+.rodape__button {
+  display: flex;
+  gap: 10px;
+  background: var(--cor-1);
+  align-items: center;
+  padding: 1rem 1.2rem;
+  border-radius: 40px;
+}
+
+.rodape__cv {
+  display: flex;
+  flex-direction: column;
+  place-items: start;
+  gap: 20px;
+}
+
+.rodape__detail {
+  background: linear-gradient(
+    180deg,
+    #6a8cf9 0%,
+    rgba(166, 113, 242, 0.557292) 54.17%,
+    rgba(242, 80, 233, 0) 100%
+  );
+  height: 10px;
+}
+
+@media (max-width: 950px) {
+  .rodape {
+    grid-template-columns: 1fr;
+  }
+
+  .rodape__menu {
+    grid-template-columns: 1fr;
+  }
 }
