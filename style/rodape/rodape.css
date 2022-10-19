@@ -38,6 +38,11 @@
   align-items: center;
   padding: 1rem 1.2rem;
   border-radius: 40px;
+  transition: 0.3s;
+}
+
+.rodape__button:hover {
+  background: var(--cor-2);
 }
 
 .rodape__cv {
@@ -54,6 +59,7 @@
     rgba(166, 113, 242, 0.557292) 54.17%,
     rgba(242, 80, 233, 0) 100%
   );
+
   height: 10px;
 }
 
