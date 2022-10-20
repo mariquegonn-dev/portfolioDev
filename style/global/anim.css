@@ -24,3 +24,51 @@
     transform: translate3d(2%, 0px, 0px);
   }
 }
+
+[data-anime] {
+  opacity: 0;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-130px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(130px, 0, 0);
+}
+
+[data-anime="up"] {
+  transform: translate3d(0, 150px, 0);
+}
+
+[data-anime="down"] {
+  transform: translate3d(0, -150px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 3s;
+}
+
+.firstTargetLeft {
+  opacity: 0;
+  transform: translate3d(-150px, 0, 0);
+}
+
+.firstTargetRight {
+  opacity: 0;
+  transform: translate3d(0, 150px, 0);
+}
+
+.firstTargetLeft.left {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 3s;
+}
+
+.firstTargetRight.down {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  transition: 3s;
+}
