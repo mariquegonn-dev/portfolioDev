@@ -4,6 +4,12 @@
 @import url("../style/global/cores.css");
 @import url("../style/global/anim.css");
 
+/* Pages */
+@import url("../style/pages/about/about.css");
+@import url("../style/pages/projects/projects.css");
+@import url("../style/pages/skills/skills.css");
+@import url("../style/pages/contact/contact.css");
+
 /* Header */
 @import url("../style/header/header.css");
 @import url("../style/header/headerMobile.css");

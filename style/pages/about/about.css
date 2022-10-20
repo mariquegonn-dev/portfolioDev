@@ -1,0 +1,40 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 40px;
+  padding: 130px 30px;
+}
+
+.about .about__img {
+  justify-self: center;
+}
+
+.about__text {
+  padding: 0px 30px 130px 30px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.about__img img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.about .about__info {
+  justify-self: start;
+}
+
+.about__info {
+  display: grid;
+  gap: 30px;
+}
+
+.github__link {
+  transition: 0.3s;
+}
+.github__link:hover {
+  color: var(--cor-2);
+}
