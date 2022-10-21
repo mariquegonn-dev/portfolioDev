@@ -9,7 +9,8 @@
 }
 .glider-dot,
 .glider-next,
-.glider-prev {
+.glider-prev,
+.glider-next2 {
   border: 0;
   padding: 0;
   user-select: none;
@@ -58,7 +59,8 @@
   height: 0;
 }
 .glider-next,
-.glider-prev {
+.glider-prev,
+.glider-next2 {
   position: absolute;
   width: 30px;
   height: 30px;
@@ -79,11 +81,23 @@
   left: auto;
   background: url("./img/right.svg") no-repeat center;
 }
+
+.glider-next2 {
+  right: 90px;
+  left: auto;
+  background: url("./img/right.svg") no-repeat center;
+}
+
+@media (max-width: 950px) {
+  .glider-next2 {
+    right: 40px;
+  }
+}
+
 .glider-next.disabled,
-.glider-prev.disabled {
-  opacity: 0.25;
-  color: #666;
-  cursor: default;
+.glider-prev.disabled,
+.glider-next2.disabled {
+  display: none;
 }
 .glider-hide {
   opacity: 0;

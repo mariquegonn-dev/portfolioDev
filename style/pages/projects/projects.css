@@ -1,0 +1,33 @@
+.projects__main {
+  padding: 130px 30px;
+}
+
+.projects__content-div {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+}
+
+.container__project2 {
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 30px;
+}
+
+.glider-track {
+  gap: 10px;
+}
+
+@media (max-width: 950px) {
+  .container__project2 {
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 30px;
+  }
+
+  .projects__main {
+    padding: 80px 30px;
+  }
+}
