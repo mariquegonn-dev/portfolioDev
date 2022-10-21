@@ -48,3 +48,14 @@
     justify-self: center;
   }
 }
+
+@media (max-width: 550px) {
+  .about__img img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .about__text {
+    padding-bottom: 80px;
+  }
+}
