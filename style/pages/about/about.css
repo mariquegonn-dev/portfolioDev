@@ -1,9 +1,6 @@
 .about {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 40px;
-  padding: 130px 30px;
 }
 
 .about .about__img {
@@ -27,11 +24,6 @@
   justify-self: start;
 }
 
-.about__info {
-  display: grid;
-  gap: 30px;
-}
-
 .github__link {
   transition: 0.3s;
 }
@@ -42,7 +34,6 @@
 @media (max-width: 950px) {
   .about {
     grid-template-columns: 1fr;
-    padding: 80px 30px 40px 30px;
   }
   .about .about__info {
     justify-self: center;
