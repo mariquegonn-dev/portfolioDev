@@ -1,12 +1,16 @@
-.container__project {
+.container__projects {
   max-width: 400px;
   margin: 0 auto;
   position: relative;
   padding: 0px 30px;
 }
 
+.projects__list-img {
+  border-radius: 20px;
+}
+
 .dots {
-  display: flex;
+  padding-top: 30px;
   align-items: center;
 }
 
@@ -30,7 +34,7 @@
 }
 
 .glider-dot.active {
-  background: #6a8cf9;
+  background: var(--cor-2);
 }
 
 .glider-next.disabled,

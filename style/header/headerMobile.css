@@ -7,8 +7,9 @@
   display: inline-block;
 }
 
-.menu__mobile-container li a {
-  width: initial;
+.menu__menu {
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .button__x {
@@ -20,13 +21,6 @@
   cursor: pointer;
   background: var(--cor-2);
   color: var(--cor-0);
-}
-
-.menu__menu {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  margin-bottom: 20px;
 }
 
 .menu__mobile-container {
@@ -45,6 +39,7 @@
   padding: 30px;
   animation: menu 1s forwards;
 }
+
 .menu__mobile-container li a {
   display: inline-block;
   margin-bottom: 20px;

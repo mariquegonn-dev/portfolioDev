@@ -53,10 +53,8 @@
 
 
   <section data-anime="left">
-
-    <h1 class="font__h1  projects__main-h1 cor-0">Latest Projects<span class="cor-1">.</span></h1>
-
-    <div class="container__project">
+    <h1 class="font__h1 projects__main-h1 cor-0">Latest Projects<span class="cor-1">.</span></h1>
+    <div class="container__projects">
       <ul class="glider">
         <li>
           <img src="./img/projects__2.png" alt="projeto 1">
@@ -85,25 +83,25 @@
       </div>
     </div>
 
-    <ul class="font__button projects__list-button">
-      <li><a class="cor-0 projects__button-bold" href="/">See More</a></li>
-      <li class="remove"><a class=" cor-0 projects__button-border" href="/">Linkedin</a></li>
+    <ul class="font__button flex gap-20 projects__button">
+      <li><a class="cor-0 button projects__button-bold" href="/">See More</a></li>
+      <li class="remove"><a class=" cor-0 button projects__button-border" href="/">Linkedin</a></li>
     </ul>
   </section>
 
-  <section class="container callFinal__sec" data-anime="down">
-    <div class="callFinal">
+  <section class="container callFinal__section" data-anime="down">
+    <div class="callFinal grid">
       <h1 class="callFinal__h1 font__h1-sub cor-0">Have a project in mind? Let’s get start<span class="cor-1">!</span></h1>
       <p class="font__p-sub cor-0">You’re looking for a solid partner for the project having in your mind. Connect with me to make your work easier.</p>
-      <a class="callFinal__button-border cor-0 font__button" href="/">See my skills</a>
+      <a class="callFinal__button-border button font__button cor-0" href="/">See my skills</a>
     </div>
   </section>
 
-  <section class="rodape__bg">
-    <div class="rodape container">
-      <div class="rodape__redes">
-        <a class="font__links rodape__title cor-0" href="/">Riquegonn</a>
-        <ul class="rodape__redes-list">
+  <section class="rodape__bg padding-30">
+    <div class="rodape grid gap-30 container">
+      <div class="rodape__redes grid gap-30">
+        <a class="font__links rodape__title padding-link cor-0" href="/">Riquegonn</a>
+        <ul class="gap-10 flex">
           <li>
             <a href="/">
               <img src="./img/rodape__icons/github.svg" alt="github link">
@@ -132,7 +130,7 @@
         </ul>
       </div>
       <div>
-        <ul class="rodape__menu" aria-label="menu de links">
+        <ul class="rodape__menu grid gap-20" aria-label="menu de links">
           <li><a class="header__nav-a font__links cor-0" href="./pages/about.html">About</a></li>
           <li><a class="header__nav-a font__links cor-0" href="./pages/projects.html">Projects</a></li>
           <li><a class="header__nav-a font__links cor-0" href="./pages/skills.html">Skills</a></li>
@@ -140,10 +138,10 @@
           <li><a class="header__nav-a font__links cor-0" href="https://github.com/riquegonn">Github</a></li>
         </ul>
       </div>
-      <div class="rodape__cv">
+      <div class="rodape__cv flex gap-20">
         <p class="cor-0 font__links">For more information</p>
 
-        <a class="rodape__button" href="/">
+        <a class="rodape__button button flex gap-10" href="/">
           <p class="font__button cor-0">Download CV</p>
           <img src="./img/rodape__icons/downloadcv.svg" alt="">
         </a>
@@ -157,7 +155,7 @@
 
   <section>
     <ul class="menu__mobile-container" data-modal="menu">
-      <li class="menu__menu">
+      <li class="menu__menu flex gap-10">
         <p class="font__links cor-1">Menu</p>
         <button class="button__x" data-modal="fechar">X</button>
       </li>
@@ -168,6 +166,7 @@
       <li><a class="header__nav-a font__links cor-0" href="https://github.com/riquegonn">Github</a></li>
     </ul>
   </section>
+
   <script src="./glider.min.js"></script>
   <script type="module" src="./script.js"></script>
 </body>

@@ -1,9 +1,8 @@
-.callFinal__sec {
-  padding: 30px 30px 130px 30px;
+.callFinal__section {
+  padding: 0px 30px 130px 30px;
 }
 
 .callFinal {
-  display: grid;
   gap: 60px;
   justify-items: center;
   background: linear-gradient(
@@ -23,9 +22,6 @@
 .callFinal__button-border {
   border: 1px solid var(--cor-1);
   padding: 0.562rem 1.09rem;
-  display: inline-block;
-  border-radius: 40px;
-  transition: 0.3s;
 }
 
 .callFinal__button-border:hover {
