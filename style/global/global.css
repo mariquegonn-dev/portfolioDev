@@ -26,12 +26,8 @@ img {
   display: block;
 }
 
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-}
-
-.detail__blur-right {
+.detail__blur-right,
+.detail__blur-top {
   width: 550px;
   height: 550px;
   background: rgba(106, 140, 249, 0.2);
@@ -44,13 +40,6 @@ img {
 }
 
 .detail__blur-top {
-  width: 550px;
-  height: 550px;
-  background: rgba(106, 140, 249, 0.2);
-  border-radius: 50%;
-  filter: blur(136px);
-  position: absolute;
-  z-index: -1;
   left: 350px;
   top: -550px;
 }

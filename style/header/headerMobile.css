@@ -1,15 +1,14 @@
-.menu__mobile-img {
-  width: 32px;
-  height: 32px;
-  background: url("../../img/menuMobile__light.svg") no-repeat center;
-  display: inline-block;
-}
-
 .menu__mobile {
   cursor: pointer;
   opacity: 0.5;
   transition: 0.3s;
   display: none;
+  background: url("../../img/menuMobile__light.svg") no-repeat center;
+  display: inline-block;
+}
+
+.menu__mobile-container li a {
+  width: initial;
 }
 
 .button__x {
@@ -69,6 +68,8 @@
 @media (max-width: 950px) {
   .menu__mobile {
     display: block;
+    width: 32px;
+    height: 32px;
   }
 }
 

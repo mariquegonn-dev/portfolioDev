@@ -1,5 +1,6 @@
 /* Global */
 @import url("../style/global/global.css");
+@import url("../style/global/container.css");
 @import url("../style/global/tipografia.css");
 @import url("../style/global/cores.css");
 @import url("../style/global/anim.css");

@@ -1,10 +1,12 @@
-.font__header-a {
+.font__links {
   font: 600 1.25rem/1.5 "Outfit", sans-serif;
   letter-spacing: 0.08rem;
+  text-transform: uppercase;
 }
 
 .font__h1 {
   font: 700 4.375rem/1.4 "Outfit", sans-serif;
+  text-transform: uppercase;
 }
 
 .font__p {
