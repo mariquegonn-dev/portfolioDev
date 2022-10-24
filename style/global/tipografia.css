@@ -35,6 +35,10 @@
   font: 400 0.875rem/1.4 "Roboto", sans-serif;
 }
 
+.font__contact {
+  font: 400 2.625rem/1.4 "Roboto", sans-serif;
+}
+
 @media (max-width: 550px) {
   .font__h1 {
     font-size: 2rem;
@@ -53,5 +57,9 @@
   .font__p-sub {
     font-size: 1rem;
     line-height: 1.4;
+  }
+
+  .font__contact {
+    font-size: 1.435rem;
   }
 }

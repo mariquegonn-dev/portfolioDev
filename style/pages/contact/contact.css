@@ -1,0 +1,33 @@
+.contact__main {
+  display: grid;
+  gap: 60px;
+}
+
+.contact__intro {
+  justify-items: center;
+}
+
+.contact__intro h1 {
+  max-width: 20ch;
+  text-align: center;
+}
+
+.contact__intro p {
+  max-width: 90ch;
+}
+
+.contact__email {
+  position: relative;
+}
+
+.contact__list {
+  gap: 60px;
+}
+
+.contact__list li .contact__list-send {
+  text-align: right;
+}
+
+.contact__redes {
+  justify-items: center;
+}
