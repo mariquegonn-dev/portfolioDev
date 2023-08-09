@@ -34,7 +34,7 @@ Selecione a opção: Live Server: Open with Live Server.
 ![Paleta de Comandos VSCODE](https://github.com/mariquegonn-dev/portfolioDev/blob/main/liveServer.png?raw=true)
 
     
-# Deploy
+# 🎆 Deploy
 
 Para acessar o deploy: [riquegonnportfolio.netlify.app](https://riquegonnportfolio.netlify.app/)
 
